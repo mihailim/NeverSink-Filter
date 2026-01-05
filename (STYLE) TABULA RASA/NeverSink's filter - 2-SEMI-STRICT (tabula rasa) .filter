@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile
 #===============================================================================================================
-# VERSION:  8.18.1a
+# VERSION:  8.18.2
 # TYPE:     2-SEMI-STRICT
 # STYLE:    TABULA RASA
 # AUTHOR:   NeverSink
@@ -1194,14 +1194,14 @@ Show # %D6 $type->crafting->qualityperfection $tier->armors1q1
 	Corrupted False
 	Quality >= 28
 	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
-	BaseType == "Archon Kite Shield" "Cardinal Round Shield" "Colossal Tower Shield" "Conquest Lamellar" "Divine Crown" "Ezomyte Tower Shield" "Fossilised Spirit Shield" "Giantslayer Helmet" "Haunted Bascinet" "Lacquered Buckler" "Leviathan Gauntlets" "Leviathan Greaves" "Lich's Circlet" "Majestic Pelt" "Necrotic Armour" "Paladin Boots" "Paladin Gloves" "Phantom Boots" "Phantom Mitts" "Royal Plate" "Sacred Chainmail" "Sacrificial Garb" "Supreme Spiked Shield" "Syndicate's Garb" "Titanium Spirit Shield" "Torturer's Mask" "Twilight Regalia" "Velour Boots" "Velour Gloves" "Warlock Boots" "Warlock Gloves" "Wyvernscale Boots" "Wyvernscale Gauntlets"
+	BaseType == "Apothecary's Gloves" "Archon Kite Shield" "Bone Helmet" "Cardinal Round Shield" "Colossal Tower Shield" "Conquest Lamellar" "Divine Crown" "Ezomyte Tower Shield" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Fugitive Boots" "Giantslayer Helmet" "Gripped Gloves" "Haunted Bascinet" "Lacquered Buckler" "Leviathan Gauntlets" "Leviathan Greaves" "Lich's Circlet" "Majestic Pelt" "Necrotic Armour" "Paladin Boots" "Paladin Gloves" "Phantom Boots" "Phantom Mitts" "Royal Plate" "Sacred Chainmail" "Sacrificial Garb" "Spiked Gloves" "Supreme Spiked Shield" "Syndicate's Garb" "Titanium Spirit Shield" "Torturer's Mask" "Twilight Regalia" "Two-Toned Boots" "Velour Boots" "Velour Gloves" "Warlock Boots" "Warlock Gloves" "Wyvernscale Boots" "Wyvernscale Gauntlets"
 
 Show # %D6 $type->crafting->qualityperfection $tier->armors1q2
 	Mirrored False
 	Corrupted False
 	Quality >= 24
 	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
-	BaseType == "Archon Kite Shield" "Cardinal Round Shield" "Colossal Tower Shield" "Conquest Lamellar" "Divine Crown" "Ezomyte Tower Shield" "Fossilised Spirit Shield" "Giantslayer Helmet" "Haunted Bascinet" "Lacquered Buckler" "Leviathan Gauntlets" "Leviathan Greaves" "Lich's Circlet" "Majestic Pelt" "Necrotic Armour" "Paladin Boots" "Paladin Gloves" "Phantom Boots" "Phantom Mitts" "Royal Plate" "Sacred Chainmail" "Sacrificial Garb" "Supreme Spiked Shield" "Syndicate's Garb" "Titanium Spirit Shield" "Torturer's Mask" "Twilight Regalia" "Velour Boots" "Velour Gloves" "Warlock Boots" "Warlock Gloves" "Wyvernscale Boots" "Wyvernscale Gauntlets"
+	BaseType == "Apothecary's Gloves" "Archon Kite Shield" "Bone Helmet" "Cardinal Round Shield" "Colossal Tower Shield" "Conquest Lamellar" "Divine Crown" "Ezomyte Tower Shield" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Fugitive Boots" "Giantslayer Helmet" "Gripped Gloves" "Haunted Bascinet" "Lacquered Buckler" "Leviathan Gauntlets" "Leviathan Greaves" "Lich's Circlet" "Majestic Pelt" "Necrotic Armour" "Paladin Boots" "Paladin Gloves" "Phantom Boots" "Phantom Mitts" "Royal Plate" "Sacred Chainmail" "Sacrificial Garb" "Spiked Gloves" "Supreme Spiked Shield" "Syndicate's Garb" "Titanium Spirit Shield" "Torturer's Mask" "Twilight Regalia" "Two-Toned Boots" "Velour Boots" "Velour Gloves" "Warlock Boots" "Warlock Gloves" "Wyvernscale Boots" "Wyvernscale Gauntlets"
 
 Show # %D6 $type->crafting->qualityperfection $tier->weapont1q1
 	Mirrored False
@@ -1231,6 +1231,12 @@ Show # %D6 $type->crafting->qualityperfection $tier->weapont2q2
 	ItemLevel >= 83
 	BaseType == "Behemoth Mace" "Citadel Bow" "Convening Wand" "Corsair Sword" "Eclipse Staff" "Eternal Sword" "Exquisite Blade" "Ezomyte Blade" "Ezomyte Staff" "Fleshripper" "Grove Bow" "Harbinger Bow" "Heavy Arrow Quiver" "Imperial Bow" "Judgement Staff" "Karui Chopper" "Karui Sceptre" "Maelström Staff" "Maraketh Bow" "Meatgrinder" "Piledriver" "Royal Axe" "Runic Hatchet" "Sai" "Spiraled Foil" "Sundering Axe" "Vile Arrow Quiver"
 
+Show # %D4 $type->crafting->qualityperfection $tier->anyoverqualityperf
+	Mirrored False
+	Corrupted False
+	Quality >= 30
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+
 Show # %D3 $type->crafting->qualityperfection $tier->anyoverqualityhigh
 	Mirrored False
 	Corrupted False
@@ -1249,7 +1255,7 @@ Show # %D3 $type->crafting->qualityperfection $tier->anyoverqualityhigh
 #	ItemLevel >= 84
 #	BaseDefencePercentile >= 99
 #	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
-#	BaseType == "Archon Kite Shield" "Cardinal Round Shield" "Colossal Tower Shield" "Conquest Lamellar" "Divine Crown" "Ezomyte Tower Shield" "Fossilised Spirit Shield" "Giantslayer Helmet" "Haunted Bascinet" "Lacquered Buckler" "Leviathan Gauntlets" "Leviathan Greaves" "Lich's Circlet" "Majestic Pelt" "Necrotic Armour" "Paladin Boots" "Paladin Gloves" "Phantom Boots" "Phantom Mitts" "Royal Plate" "Sacred Chainmail" "Sacrificial Garb" "Supreme Spiked Shield" "Syndicate's Garb" "Titanium Spirit Shield" "Torturer's Mask" "Twilight Regalia" "Velour Boots" "Velour Gloves" "Warlock Boots" "Warlock Gloves" "Wyvernscale Boots" "Wyvernscale Gauntlets"
+#	BaseType == "Apothecary's Gloves" "Archon Kite Shield" "Bone Helmet" "Cardinal Round Shield" "Colossal Tower Shield" "Conquest Lamellar" "Divine Crown" "Ezomyte Tower Shield" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Fugitive Boots" "Giantslayer Helmet" "Gripped Gloves" "Haunted Bascinet" "Lacquered Buckler" "Leviathan Gauntlets" "Leviathan Greaves" "Lich's Circlet" "Majestic Pelt" "Necrotic Armour" "Paladin Boots" "Paladin Gloves" "Phantom Boots" "Phantom Mitts" "Royal Plate" "Sacred Chainmail" "Sacrificial Garb" "Spiked Gloves" "Supreme Spiked Shield" "Syndicate's Garb" "Titanium Spirit Shield" "Torturer's Mask" "Twilight Regalia" "Two-Toned Boots" "Velour Boots" "Velour Gloves" "Warlock Boots" "Warlock Gloves" "Wyvernscale Boots" "Wyvernscale Gauntlets"
 
 #------------------------------------
 #   [0902] Memory Strand Gear
@@ -4218,11 +4224,11 @@ Show # $type->currency $tier->t3annul
 
 Show # $type->currency $tier->t4chaos
 	Class == "Stackable Currency"
-	BaseType == "Blighted Scouting Report" "Chaos Orb" "Delirious Scouting Report" "Exalted Implant" "Explorer's Scouting Report" "Foulborn Regal Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Grand Eldritch Ember" "Grand Eldritch Ichor" "Greater Eldritch Ichor" "Harbinger's Orb" "Influenced Scouting Report" "Maven's Chisel of Divination" "Maven's Chisel of Procurement" "Operative's Scouting Report" "Orb of Annulment" "Orb of Intention" "Otherworldly Scouting Report" "Ritual Splinter" "Singular Scouting Report" "Stacked Deck" "Tainted Armourer's Scrap" "Tainted Catalyst" "Tainted Chromatic Orb" "Vaal Scouting Report" "Veiled Scarab"
+	BaseType == "Blighted Scouting Report" "Chaos Orb" "Delirious Scouting Report" "Exalted Implant" "Explorer's Scouting Report" "Facetor's Lens" "Foulborn Regal Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Grand Eldritch Ember" "Grand Eldritch Ichor" "Greater Eldritch Ichor" "Harbinger's Orb" "Influenced Scouting Report" "Maven's Chisel of Divination" "Maven's Chisel of Procurement" "Operative's Scouting Report" "Orb of Annulment" "Orb of Intention" "Otherworldly Scouting Report" "Ritual Splinter" "Singular Scouting Report" "Stacked Deck" "Tainted Armourer's Scrap" "Tainted Catalyst" "Tainted Chromatic Orb" "Vaal Scouting Report" "Veiled Scarab"
 
 Show # %HS4 $type->currency $tier->t5alchemy
 	Class == "Stackable Currency"
-	BaseType == "Abrasive Catalyst" "Accelerating Catalyst" "Annulment Shard" "Astragali" "Augmentation Implant" "Cartographer's Chisel" "Engineer's Orb" "Exalted Shard" "Facetor's Lens" "Foulborn Orb of Augmentation" "Greater Eldritch Ember" "Imbued Catalyst" "Intrinsic Catalyst" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Noxious Catalyst" "Orb of Alchemy" "Orb of Regret" "Orb of Scouring" "Orb of Unmaking" "Regal Implant" "Regal Orb" "Scrap Metal" "Tainted Blacksmith's Whetstone" "Tainted Jeweller's Orb" "Tempering Catalyst" "Turbulent Catalyst" "Unstable Catalyst" "Vaal Orb"
+	BaseType == "Abrasive Catalyst" "Accelerating Catalyst" "Annulment Shard" "Astragali" "Augmentation Implant" "Cartographer's Chisel" "Engineer's Orb" "Exalted Shard" "Foulborn Orb of Augmentation" "Greater Eldritch Ember" "Imbued Catalyst" "Intrinsic Catalyst" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Noxious Catalyst" "Orb of Alchemy" "Orb of Regret" "Orb of Scouring" "Orb of Unmaking" "Regal Implant" "Regal Orb" "Scrap Metal" "Tainted Blacksmith's Whetstone" "Tainted Jeweller's Orb" "Tempering Catalyst" "Turbulent Catalyst" "Unstable Catalyst" "Vaal Orb"
 
 Show # %HS3 $type->currency $tier->t6chrom
 	Class == "Stackable Currency"
@@ -4300,7 +4306,7 @@ Show # $type->currency->resonator $tier->t1
 	Class == "Delve Stackable Socketable Currency"
 	BaseType == "Prime Chaotic Resonator"
 
-Show # %H5 $type->currency->resonator $tier->t2
+Show # %HS5 $type->currency->resonator $tier->t2
 	Class == "Delve Stackable Socketable Currency"
 	BaseType == "Potent Chaotic Resonator" "Powerful Chaotic Resonator" "Primitive Chaotic Resonator"
 
@@ -4738,6 +4744,10 @@ Hide # $type->currency $tier->scrollfragments
 	Class == "Stackable Currency"
 	BaseType == "Scroll Fragment"
 
+Hide # $type->currency $tier->exlifeforce
+	Class == "Stackable Currency"
+	BaseType == "Primal Crystallised Lifeforce" "Vivid Crystallised Lifeforce" "Wild Crystallised Lifeforce"
+
 Show # $type->currency $tier->restex
 	Class == "Stackable Currency"
 
@@ -4845,8 +4855,8 @@ Show # $type->uniques $tier->exsquire
 	BaseType == "Elegant Round Shield"
 
 Show # $type->uniques $tier->extabula
+	LinkedSockets 6
 	Rarity Unique
-	SocketGroup "WWWWWW"
 	BaseType == "Simple Robe"
 
 Show # $type->uniques $tier->extriadgrip
@@ -4899,6 +4909,7 @@ Show # $type->uniques $tier->t2
 #------------------------------------
 #   [4603] Exceptions #2
 #------------------------------------
+# !! Waypoint c10.uniques.undert1t2 : "Tierlist - Uniques - All tiering, except T1 and T2"
 
 Show # $type->uniques $tier->exuniqueidols
 	Rarity Unique
